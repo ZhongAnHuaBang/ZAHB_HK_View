@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZAHB_HK_View"    #存储库名称
-  s.version      = "0.0.2"      #版本号，与tag值一致
+  s.version      = "0.0.3"      #版本号，与tag值一致
   s.summary      = "ceshi"  #简介
   s.description  = "ceshiyong"  #描述
   s.homepage     = "https://github.com/ZhongAnHuaBang/ZAHB_HK_View"      #项目主页，不是git地址
