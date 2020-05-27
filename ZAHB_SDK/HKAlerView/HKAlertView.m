@@ -99,6 +99,7 @@
  *  @param otherButtonTitles 其他按钮
  */
 - (void)showAlertViewWithTitle:(NSString *)title message:(NSString *)message cancelButtonTitle:(NSString *)cancelButtonTitle cancelCallBack:(CancelCallBack)cancelCallBack otherCallBack:(OtherCallBack)otherCallBack otherButtonTitles:(NSString *)otherButtonTitles, ... NS_REQUIRES_NIL_TERMINATION{
+    NSLog(@"__IPHONE_OS_VERSION_MIN_REQUIRED：%d  /n __IPHONE_9_0:%d",__IPHONE_OS_VERSION_MIN_REQUIRED,__IPHONE_9_0);
 #if __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_9_0
     //初始化AlertController
     UIAlertController *alertViewController = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
